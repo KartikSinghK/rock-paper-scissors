@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Rock-paper-scissor</title>
+    </head>
+    <body>
+        <section class="container">
+            <div class="inner-container player">
+                <p class="score">
+                    Player : <span id="player-score">0</span>
+                </p>
+                <img class="sign player-sign" src="assets/rock.png" alt="" />
+            </div>
+            <div class="inner-container computer">
+                <p class="score">
+                    Computer : <span id="computer-score">0</span>
+                </p>
+                <img class="sign computer-sign" src="assets/rock.png" alt="" />
+            </div>
+            <div class="options">
+                <button data-sign="rock" class="btn rock">Rock</button>
+                <button data-sign="paper" class="btn paper">Paper</button>
+                <button data-sign="scissors" class="btn scissor">Scissors</button>
+                <button class="btn-reset">Reset</button>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
